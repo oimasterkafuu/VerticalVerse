@@ -13,7 +13,7 @@
     <?php $this->header(); ?>
 </head>
 <body>
-
+    
 <div class="site-title">
     <a class="site-title-text" href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title() ?></a>
     <span><?php $this->options->description() ?></span>

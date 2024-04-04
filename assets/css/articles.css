@@ -1,0 +1,7 @@
+div.divider {
+    border-left: double 2px var(--main-text-color);
+}
+
+.page-nav span {
+    margin: 10px;
+}

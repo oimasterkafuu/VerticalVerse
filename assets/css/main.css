@@ -1,4 +1,20 @@
+@import url("variables.css");
 @import url("font.css");
-@import url("nav.css");
-@import url("page.css");
-@import url("title.css");
+@import url("articles.css");
+@import url("index.css");
+@import url("post.css");
+@import url("sidebar.css");
+
+body {
+    font-family: 'gudian', serif;
+    color: var(--main-text-color);
+    writing-mode: vertical-rl;
+    line-height: 1.5;
+
+    background-image: var(--main-bg-image);
+    background-color: var(--main-bg-color);
+    background-repeat: repeat;
+    
+    padding: 5vh 0;
+}
+

@@ -4,7 +4,7 @@ $this->need('components/header.php');
 ?>
 
 <div class="post-title">
-    <h1><a class="post-title-text" href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h1>
+    <h1><a href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h1>
 </div>
 
 <?php $this->content(); ?>

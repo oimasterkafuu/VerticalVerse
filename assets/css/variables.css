@@ -1,0 +1,6 @@
+:root {
+    --main-bg-image: url("../img/background.jpeg");
+    --main-bg-color: rgb(239, 236, 232);
+    --main-text-color: #3e4f5c;
+    --main-hyperlink-color: #8da399;
+}
