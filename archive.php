@@ -1,10 +1,4 @@
 <?php
-/**
- * @package 立韵阁
- * @author oimasterkafuu
- * @version 0.1
- * @link https://oimaster.top
- */
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 $this->need('components/header.php');
 ?>
