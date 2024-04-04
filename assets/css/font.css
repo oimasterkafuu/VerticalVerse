@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'gudian';
+    src: url('../font/WenYue_GuDianMingChaoTi_JRFC.otf') format('opentype');
+}
+
+body {
+    font-family: 'gudian', serif;
+    color: #3e4f5c;
+}
+
+a {
+    color: #8da399;
+    text-decoration: none;
+}
