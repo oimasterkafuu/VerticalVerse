@@ -1,12 +1,11 @@
 @import url("variables.css");
-@import url("font.css");
 @import url("articles.css");
 @import url("index.css");
 @import url("post.css");
 @import url("sidebar.css");
 
 body {
-    font-family: 'gudian', serif;
+    font-family: serif;
     color: var(--main-text-color);
     writing-mode: vertical-rl;
     line-height: 1.5;

@@ -9,5 +9,39 @@
 
 .site-title-text {
     font-size: 2.5em;
+    font-weight: 800;
 }
 
+.old-style {
+    border-radius: 20%;
+
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0.1em;
+    display: inline-block;
+    background-position: top center;
+    background-size: cover;
+    filter: grayscale(1) blur(0.1px) contrast(1.2) sepia(1) blur(0.025px);
+    -webkit-mask: radial-gradient(#000, #000a);
+}
+
+.old-style::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-mask: radial-gradient(farthest-side, #0000 30%, #000);
+    backdrop-filter: blur(0.5px) sepia(90%);
+}
+
+.old-style::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background:
+        url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100'><filter id='noise' x='0%' y='0%' width='100%' height='100%'><feTurbulence baseFrequency='0.5' /></filter><rect x='0' y='0' width='100%' height='100%' filter='url(%23noise)' /></svg>"), #f003;
+    filter: grayscale(100%) contrast(150%);
+    mix-blend-mode: darken;
+}
