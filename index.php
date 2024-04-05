@@ -2,7 +2,7 @@
 /**
  * @package 立韵阁
  * @author oimasterkafuu
- * @version 0.3
+ * @version 0.4
  * @link https://oimaster.top
  */
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;

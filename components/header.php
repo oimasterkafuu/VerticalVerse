@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/font.css'); ?>">
     <?php endif; ?>
     <script src="<?php $this->options->themeUrl('assets/js/formatter.js'); ?>"></script>
+    <script src="<?php $this->options->themeUrl('assets/js/old-image.js'); ?>"></script>
     <?php $this->header(); ?>
 </head>
 <body>
