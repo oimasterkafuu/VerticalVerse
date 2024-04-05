@@ -1,8 +1,24 @@
 .post-title {
     margin-left: 1.5em;
+
+    display: flex;
+    align-items: flex-start;
+}
+
+.post-title-text {
+    font-size: 2em;
+}
+
+.post-tags {
+    font-size: 1.3em;
 }
 
 a {
     color: #8da399;
     text-decoration: none;
+}
+
+.punctuation {
+    font-size: 0.3em;
+    color: #101010;
 }

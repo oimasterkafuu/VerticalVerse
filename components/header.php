@@ -9,6 +9,7 @@
             'category' => '%s'
         ], '', ' - '); ?><?php $this->options->title(); ?></title>
     <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/main.css'); ?>">
+    <script src="<?php $this->options->themeUrl('assets/js/formatter.js'); ?>"></script>
     <?php $this->header(); ?>
 </head>
 <body>
