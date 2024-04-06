@@ -5,13 +5,7 @@ $this->need('components/header.php');
 
 <?php if ($this->have()): ?>
     <?php while ($this->next()): ?>
-        <div class="post-title">
-            <a class="post-title-text" href="<?php $this->permalink() ?>"><?php $this->title() ?></a>
-                <?php if(!empty($this->tags)): ?>
-                    <span class="post-tags">（<?php $this->tags('、', false, '博客'); ?>）</span>
-                <?php endif; ?>
-            </span>
-        </div>
+        <?php postMeta($this); ?>
         <div class="article">
         <?php $this->content('阅读剩余部分'); ?>
         </div>

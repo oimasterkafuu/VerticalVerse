@@ -26,3 +26,19 @@ function themeConfig($form)
 
     $form->addInput($gudianFont);
 }
+
+function postMeta(\Widget\Archive $archive)
+{
+?>
+    <div class="post-meta">
+        <div class="post-title">
+            <a class="post-title-text" href="<?php $archive->permalink() ?>"><?php $archive->title() ?></a>
+            <?php if(!empty($archive->tags)): ?>
+                <span class="post-tags">（<?php $archive->tags('、', false); ?>）</span>
+            <?php endif; ?>
+        </div>
+        <div class="post-author"><?php $archive->author(); ?></div>
+    </div>
+<?php
+}
+?>
