@@ -2,7 +2,7 @@
 /**
  * @package 立韵阁
  * @author oimasterkafuu
- * @version 0.4
+ * @version 0.5
  * @link https://oimaster.top
  */
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
@@ -19,5 +19,7 @@ $this->need('components/header.php');
 ]);
 ?>
 </div>
+
+<div class="divider"></div>
 
 <?php $this->need('components/footer.php'); ?>

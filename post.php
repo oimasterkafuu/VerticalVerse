@@ -15,6 +15,6 @@ $this->need('components/header.php');
 <?php $this->content(); ?>
 </div>
 
-<hr>
+<div class="divider"></div>
 
 <?php $this->need('components/footer.php'); ?>

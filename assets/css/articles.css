@@ -1,8 +1,3 @@
-div.divider {
-    border-left: double 2px var(--main-text-color);
-    margin-left: 10px;
-}
-
 .page-nav span {
     margin: 10px;
 }

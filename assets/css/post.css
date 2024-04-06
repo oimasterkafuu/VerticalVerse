@@ -56,3 +56,15 @@ a {
     filter: grayscale(100%) contrast(150%);
     mix-blend-mode: darken;
 }
+
+div.divider {
+    border-left: double 2px var(--main-text-color);
+    margin-left: 10px;
+}
+
+input {
+    border: 1px solid var(--main-hyperlink-color);
+    font-family: inherit;
+    font-size: 1.2em;
+    background: none
+}
