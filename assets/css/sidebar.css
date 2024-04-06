@@ -1,6 +1,6 @@
 .site-title {
     margin-left: 2em;
-    border-left: double 4px #3e4f5c;
+    border-left: double 4px var(--main-text-color);
 
     display: flex;
     justify-content: space-between;

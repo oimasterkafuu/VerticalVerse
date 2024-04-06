@@ -3,6 +3,18 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 $this->need('components/header.php');
 ?>
 
+<?php if($this->is('category')): ?>
+    <div class="category-name">
+        <div class="post-meta">
+            <div class="post-title">
+                <a class="category-title-text" href="<?php $this->permalink() ?>"><?php $this->archiveTitle('%s', '', '') ?></a>
+            </div>
+        </div>
+        <div><?php echo $this->getArchiveDescription(); ?></div>
+    </div>
+    <div class="divider"></div>
+<?php endif; ?>
+
 <?php if ($this->have()): ?>
     <?php while ($this->next()): ?>
         <?php postMeta($this); ?>
